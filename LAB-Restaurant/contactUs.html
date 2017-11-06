@@ -10,7 +10,7 @@
       <a href="menu.html">Menu </a>
       <a href="contactUs.html">Contact Us</a>
     <hr/>
-    <table>
+    <form action="#" method="post"><table align="center" cellpadding="5">
       <tr>
           <th>Name:</th><td><input type="text" name"name"/></td>
       </tr>
@@ -26,10 +26,30 @@
           <option value="Private Party">Private Party</option>
           <option value="Feedback">Feedback</option>
           <option value="Other">Other</option>
+        </select></td>
       </tr>
-    </table>
+      <tr>
+        <th>Additional Information:<br/><br/></th><td><textarea value="addInfo"></textarea></td>
+      </tr>
+      <tr>
+        <th>Have you been to the restaurant?</th><td><input type="radio"
+          name="haveBeen" value="no">No <input type="radio" name="haveBeen" value="yes">Yes</td>
+      </tr>
+      <tr>
+        <th>Best Days to Contact You:</th><td><input type="checkbox" name="days"
+        value="M">M<input type="checkbox" name="days"
+        value="T">T<input type="checkbox" name="days"
+        value="W">W<input type="checkbox" name="days"
+        value="Th">Th<input type="checkbox" name="days"
+        value="F">F</td>
+      </tr>
+      <tr>
+        <td></td><td align="right"><button type="submit"/>Send Request</button>
+      </tr>
+    </table></form>
   </body>
   <footer align="center">
+    <hr/>
     <h5>847 Main St., Cleveland OH 44101</h5>
     <h5>(216)867-5309</h5>
     <hr/>

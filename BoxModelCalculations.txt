@@ -1,0 +1,32 @@
+<!--sample element-->
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+height=h, width=w, margin=m, border=b, padding=p
+
+Total height=2p+2b+2m+h
+=20+2+40+150
+=112px
+
+Total width=2p+2b+2m+w
+=20+2+40+400
+=462px
+
+Browser calc. height=2b+2m+h
+=2+40+150
+=192px
+
+Browser calc. width=2b+2m+w
+=2+40+400
+=442px

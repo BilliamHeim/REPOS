@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Lil' Bits- Home</title>
+      <link rel="StyleSheet" type="text/css" href="restaurantstyles.css">
+      <style>
+        table, tr{
+          background-color: rgba(255, 255, 255, 0.494);
+          border:none;
+        }
+        th{
+          text-align: left;
+        }
+        tr:nth-child(even){
+          background-color: rgba(255, 255, 255, 0.22);
+        }
+        th{
+          font-weight: bold;
+        }
+      </style>
+    </head>
+    <body>
+        <h1 class="restName">Lil' Bits</h1>
+        <hr/><div class="nav">
+            <a href="index.html">Home </a>
+            <a href="menu.html">Menu </a>
+            <a href="contactUs.html">Contact Us</a>
+          </div><hr/>
+    <form action="#" method="post"><table align="center" cellpadding="5">
+      <tr>
+          <th>Full Name:</th><td><input type="text" name"name"/></td>
+      </tr>
+      <tr>
+          <th>Email Address:</th><td><input type="text" name"email"/></td>
+      </tr>
+      <tr>
+          <th>Phone Number:</th><td><input type="text" name"phone"/></td>
+      </tr>
+      <tr>
+        <th>Reason for Inquiry:</th><td><select name="reason">
+          <option value="Catering">Catering</option>
+          <option value="Private Party">Private Party</option>
+          <option value="Feedback">Feedback</option>
+          <option value="Other">Other</option>
+        </select></td>
+      </tr>
+      <tr>
+        <th>Additional Information:<br/><br/></th><td><textarea value="addInfo"></textarea></td>
+      </tr>
+      <tr>
+        <th>Have you been to the restaurant?</th><td><input type="radio"
+          name="haveBeen" value="no">No <input type="radio" name="haveBeen" value="yes">Yes</td>
+      </tr>
+      <tr>
+        <th>Best Days to Contact You:</th><td><input type="checkbox" name="days"
+        value="M">M<input type="checkbox" name="days"
+        value="T">T<input type="checkbox" name="days"
+        value="W">W<input type="checkbox" name="days"
+        value="Th">Th<input type="checkbox" name="days"
+        value="F">F</td>
+      </tr>
+      <tr>
+        <td colspan="2" align="center"><button type="submit"/>Send Request</button>
+      </tr>
+    </table></form>
+    <hr/>
+  </body>
+  <footer>
+      <hr/>
+      <h5>847 Main Street, Cleveland OH 44101<br/>(216)867-5309</h5>
+      <hr/>
+    </footer>
+</html>
